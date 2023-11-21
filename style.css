@@ -75,3 +75,34 @@ body {
 .top-page img {
   max-height: 80%;
 }
+
+.mid-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.mid-page h1 {
+  font-weight: 900;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.mid-page-shoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  
+}
+
+.info img {
+  width: 300px;
+  height: auto;
+}
+
+.info {
+  max-width: 300px;
+  
+}
