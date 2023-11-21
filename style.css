@@ -79,14 +79,16 @@ body {
 .mid-page {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  
+  height: 600px;
 }
 
 .mid-page h1 {
   font-weight: 900;
   font-size: 36px;
   color: #1F2937;
+  padding-bottom: 30px;
 }
 
 .mid-page-shoes {
@@ -104,5 +106,28 @@ body {
 
 .info {
   max-width: 300px;
-  
+  text-align: center;
 }
+
+.inspiration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #E5E7EB;
+}
+
+#quote {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+#author {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: right;
+}
+
