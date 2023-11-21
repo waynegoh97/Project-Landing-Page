@@ -131,3 +131,26 @@ body {
   text-align: right;
 }
 
+.bottom-page {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-page-border {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  height: 100px;
+  width: 800px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  gap: 100px;
+}
+
+.quotes {
+
+  margin: 0;
+  padding: 0;
+}
