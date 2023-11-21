@@ -31,3 +31,47 @@ body {
   height: 60px;
   width: auto;
 }
+
+.top-page {
+  display: flex;
+  background-color: #1F2937;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.top-page-description {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  
+  
+}
+
+.top-page-description h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.top-page-description p {
+  padding-bottom: 20px;
+  margin: 0;
+  color: #E5E7EB;
+}
+
+.top-page-description button {
+  background-color: rgb(4, 191, 248);
+  color: #F9FAF8;
+  width: 100px;
+  height: auto;
+  border-radius: 10%;
+  border-color: rgb(4, 191, 248);
+}
+
+.top-page img {
+  max-height: 80%;
+}
