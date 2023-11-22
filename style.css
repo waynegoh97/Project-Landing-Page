@@ -176,3 +176,16 @@ button:hover {
 button:focus {
   background-color: gray;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #1F2937;
+}
+
+.footer p {
+  color: white;
+
+}
