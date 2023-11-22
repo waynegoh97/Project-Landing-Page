@@ -141,8 +141,8 @@ body {
 
 .bottom-page-border {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  align-items: center;
   height: 100px;
   width: 800px;
   background-color: #3882F6;
@@ -150,8 +150,19 @@ body {
   gap: 100px;
 }
 
-.quotes {
-
+.quotes h3,
+.quotes p{
+  color: #E5E7EB;
   margin: 0;
   padding: 0;
+}
+
+.bottom-page-border button {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border-style: solid;
 }
