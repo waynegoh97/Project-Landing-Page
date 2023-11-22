@@ -68,8 +68,9 @@ body {
   color: #F9FAF8;
   width: 100px;
   height: auto;
-  border-radius: 10%;
-  border-color: rgb(4, 191, 248);
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
 }
 
 .top-page img {
